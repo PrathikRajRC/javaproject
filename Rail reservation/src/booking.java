@@ -38,7 +38,7 @@ public class booking {
 		  String pnr=String.valueOf(ra);
 		java.util.Date date=new java.util.Date();     //Object that gives the CURRENT System DATE and TIME
 		  String d=date.toString();
-		  if(n.isBlank()||f.isBlank()||t.isBlank()||a==0) {
+		  if(n.isBlank()||f.isBlank()||t.||a==0) {
 			  JOptionPane.showMessageDialog(null, "ALL FIELDS ARE MANDATORY","VALIDATION",JOptionPane.ERROR_MESSAGE);
 			  continue;
 		  }
